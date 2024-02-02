@@ -1,0 +1,19 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "file manager on node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalmykovaElena/file-manager.git"
+  },
+  "author": "Kalmykova E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KalmykovaElena/file-manager/issues"
+  },
+  "homepage": "https://github.com/KalmykovaElena/file-manager#readme"
+}
