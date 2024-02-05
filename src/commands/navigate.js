@@ -9,7 +9,6 @@ export const navigate = (directory) => {
       console.error("Operation failed");
     }
   } else {
-    console.log("no such directory");
     console.log("Invalid input");
   }
 };

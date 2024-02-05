@@ -1,4 +1,5 @@
 import { EOL, cpus, homedir, userInfo, arch } from "os";
+
 export const getOSInfo = (params) => {
   const command = params.replace("--", "");
   switch (command) {

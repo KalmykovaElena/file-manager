@@ -10,6 +10,6 @@ export const removeFile = async (pathToFile) => {
   }
 
   rm(sourcePath, { recursive: true }, (error) => {
-    console.log(error ? error : "The File has been deleted");
+    console.log(error ? "Operation failed" : "The File has been deleted");
   });
 };

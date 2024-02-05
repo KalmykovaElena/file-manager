@@ -3,7 +3,7 @@ import path from "path";
 import { cwd } from "process";
 
 export const createFile = async (fileName) => {
-  const fullPath = path.join(cwd(), fileName);
+  const fullPath = path.resolve(cwd(), fileName);
 
   fs.access(fullPath, constants.F_OK, (err) => {
     if (!err) {
@@ -13,6 +13,8 @@ export const createFile = async (fileName) => {
   });
 
   writeFile(fullPath, "", (error) => {
-    error ? console.log(error) : null;
+   if(error){
+    console.error("Operation failed");
+   }
   });
 };

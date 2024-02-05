@@ -26,10 +26,10 @@
   `+6` - **+6** Get current _system user name_ (Do not confuse with the username that is set when the application starts)
   `+6` - **+6** Get CPU architecture for which Node.js binary has compiled
 - Hash calculation implemented properly
-  - **+20** Calculate hash for file
+  `+20` - **+20** Calculate hash for file
 - Compress and decompress operations
-  - **+20** Compress file (using Brotli algorithm)
-  - **+20** Decompress file (using Brotli algorithm)
+  `+20` - **+20** Compress file (using Brotli algorithm)
+  `+20` - **+20** Decompress file (using Brotli algorithm)
 
 ## Advanced Scope
 
