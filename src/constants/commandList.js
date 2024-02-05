@@ -1,6 +1,7 @@
 import { copyFile } from "../commands/copyFile.js";
 import { createFile } from "../commands/createFile.js";
 import { exitFromApp } from "../commands/exitFromApp.js";
+import { getOSInfo } from "../commands/getOSIinfo.js";
 import { moveFile } from "../commands/moveFile.js";
 import { navigate, navigateUp } from "../commands/navigate.js";
 import { readFile } from "../commands/readFile.js";
@@ -18,5 +19,6 @@ export const commandList = {
   rn: renameFile,
   cp: copyFile,
   mv:moveFile,
-  rm:removeFile
+  rm:removeFile,
+  os:getOSInfo
 };

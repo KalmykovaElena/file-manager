@@ -20,11 +20,11 @@
   `+10` - **+10** Move file
   `+10` - **+10** Delete file
 - Operating system info (prints following information in console) implemented properly
-  - **+6** Get EOL (default system End-Of-Line)
-  - **+10** Get host machine CPUs info (overall amount of CPUS plus model and clock rate (in GHz) for each of them)
-  - **+6** Get home directory
-  - **+6** Get current _system user name_ (Do not confuse with the username that is set when the application starts)
-  - **+6** Get CPU architecture for which Node.js binary has compiled
+  `+6` - **+6** Get EOL (default system End-Of-Line)
+  `+10` - **+10** Get host machine CPUs info (overall amount of CPUS plus model and clock rate (in GHz) for each of them)
+  `+6` - **+6** Get home directory
+  `+6` - **+6** Get current _system user name_ (Do not confuse with the username that is set when the application starts)
+  `+6` - **+6** Get CPU architecture for which Node.js binary has compiled
 - Hash calculation implemented properly
   - **+20** Calculate hash for file
 - Compress and decompress operations
@@ -33,7 +33,7 @@
 
 ## Advanced Scope
 
-- **+30** All operations marked as to be implemented using certain streams should be performed using Streams API
-- **+20** No synchronous Node.js API with asynchronous analogues is used (e.g. not used `readFileSync` instead of `readFile`)
-- **+20** Codebase is written in ESM modules instead of CommonJS
-- **+20** Codebase is separated (at least 7 modules)
+`+30`- **+30** All operations marked as to be implemented using certain streams should be performed using Streams API
+`+20` - **+20** No synchronous Node.js API with asynchronous analogues is used (e.g. not used `readFileSync` instead of `readFile`)
+`+20` - **+20** Codebase is written in ESM modules instead of CommonJS
+`+20` - **+20** Codebase is separated (at least 7 modules)
